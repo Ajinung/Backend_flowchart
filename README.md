@@ -7,10 +7,11 @@ WORKING ON EXPRESS, BACKEND
 5. inside src folder, create config folder
 6. inside config folder create an index.ts file where you would call your enviranment variable
 7. create an environmentVariable file
-8. import dotenv from "dotenv" in the enviraonment variab;le file created in enviraonmentVairable filder
+8. import dotenv from "dotenv" in the environment variab;le file created in enviraonmentVairable filder
 9. set up app.ts file
 10. set up the database by creating DB file in config
 11. add the mongoDb connection string in the .env file e.g "MONGODB_STRING_LOCAL = mongodb://127.0.0.1:27017/set06_nodeClass"
 12. import appConfig and dbConfig in your root index.ts file
 13. set up error handling by crating utils folder in src
 14. create appError file
+15. create httpCode enum object file //enum helps us creaate constants
