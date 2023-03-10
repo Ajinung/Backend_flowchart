@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
+import environmentVaraible from "./environmentVaiable";
 
-const DB = "";
+const DB = environmentVaraible.MONGODB_STRING_LOCAL;
 
 const dbConfig = async () => {
   try {
