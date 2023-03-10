@@ -15,3 +15,5 @@ WORKING ON EXPRESS, BACKEND
 13. set up error handling by crating utils folder in src
 14. create appError file
 15. create httpCode enum object file //enum helps us creaate constants
+16. create interface errorArgs in the appError file
+17. create class AppError in the appError file
