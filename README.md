@@ -17,3 +17,11 @@ WORKING ON EXPRESS, BACKEND
 15. create httpCode enum object file //enum helps us creaate constants
 16. create interface errorArgs in the appError file
 17. create class AppError in the appError file
+18. create middleware folder in your config folder
+19. create index.ts file middleware folder
+20. create errorHandler folder
+21. create index.ts file in errorHandler folder
+22. create route file in config config folder
+23. create the homeroute file
+24. add router code in the homeroute
+25. create api folder in src
