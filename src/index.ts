@@ -1,8 +1,8 @@
 import express, { Application } from "express";
+import environmentVaraible from "./config/environmentVaiable";
 
 const app: Application = express();
-const port: number | string = 9393;
 
-app.listen(port, () => {
-  console.log(`server listening on ${port}`);
+app.listen(environmentVaraible.PORT, () => {
+  console.log(`server listening`);
 });
