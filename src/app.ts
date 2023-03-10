@@ -18,7 +18,7 @@ const appConfig = (app: Application) => {
     .all("*", (req: Request, res: Response, next: NextFunction) => {
       next(
         new AppError({
-          message: `this route does "${req.originalUrl}" does not exist`,
+          message: `this route ${req.originalUrl} does not exist`,
           httpCode: HttpCode.NOT_FOUND,
         })
       );
