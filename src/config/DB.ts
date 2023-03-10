@@ -6,5 +6,9 @@ const dbConfig = async () => {
   try {
     const conn = await mongoose.connect(DB);
     console.log(`connecting to ${conn.connection.host}`);
-  } catch (error) {}
+  } catch (error) {
+    throw error;
+  }
 };
+
+export default dbConfig;
